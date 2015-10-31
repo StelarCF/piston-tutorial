@@ -1,8 +1,12 @@
 [root]
 name = "piston-tutorial"
-version = "0.1.0"
+version = "0.3.0"
 dependencies = [
- "piston_window 0.24.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "find_folder 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gfx 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gfx_device_gl 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "piston2d-gfx_graphics 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "piston_window 0.25.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -124,6 +128,11 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "num 0.1.27 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "find_folder"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "flate2"
@@ -290,7 +299,7 @@ dependencies = [
 
 [[package]]
 name = "image"
-version = "0.3.15"
+version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "byteorder 0.3.13 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -423,11 +432,11 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "piston-gfx_texture"
-version = "0.3.0"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "gfx 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "image 0.3.15 (registry+https://github.com/rust-lang/crates.io-index)",
+ "image 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "piston-texture 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -451,12 +460,12 @@ dependencies = [
 
 [[package]]
 name = "piston2d-gfx_graphics"
-version = "0.10.0"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "freetype-rs 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "gfx 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "piston-gfx_texture 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "piston-gfx_texture 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "piston-shaders_graphics2d 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "piston2d-graphics 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -476,13 +485,13 @@ dependencies = [
 
 [[package]]
 name = "piston_window"
-version = "0.24.0"
+version = "0.25.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "gfx 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "gfx_device_gl 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "piston 0.13.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "piston2d-gfx_graphics 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "piston2d-gfx_graphics 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "piston2d-graphics 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "pistoncore-glutin_window 0.16.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "shader_version 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
